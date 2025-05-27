@@ -27,3 +27,13 @@ section.first-section {
 section.alternative-color {
     background-color: mix($background-color, $primary-color, 50%);
 }
+
+section.last-section {
+    margin-top: 1em;
+}
+
+section.inter-color {
+    background-color: mix($background-color, $primary-color, 70%);
+}
+
+

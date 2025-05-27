@@ -18,3 +18,4 @@ Cedula Profesional:
 *2017 - 2019* - **Maestria en desarrollo y psicoterapia infantil**, Grado de Maestría.  
 Cedula Profesional: 
 
+
