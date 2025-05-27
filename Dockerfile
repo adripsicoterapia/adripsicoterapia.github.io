@@ -8,7 +8,7 @@ RUN  apt-get -y upgrade
 
 RUN  apt install -y locales
 RUN  dpkg-reconfigure locales &&  locale-gen C.UTF-8 &&   /usr/sbin/update-locale LANG=C.UTF-8
-RUN  echo 'en_US.UTF-8 UTF-8' >> /etc/locale.gen &&  locale-gen
+RUN  echo 'es_MX.UTF-8 UTF-8' >> /etc/locale.gen &&  locale-gen
 # Create the user
 
 RUN groupadd --gid $USER_GID $USERNAME \
@@ -36,6 +36,7 @@ USER $USERNAME
 # "Partially based on https://gist.github.com/jhonnymoreira/777555ea809fd2f7c2ddf71540090526"
 RUN sudo apt-get -y install git \
     curl \
+    nano \
     autoconf \
     bison \
     build-essential \
@@ -53,8 +54,8 @@ RUN sudo apt-get -y install git \
 
 # Set default locale for the environment
 ENV LC_ALL C.UTF-8
-ENV LANG en_US.UTF-8
-ENV LANGUAGE en_US.UTF-8    
+ENV LANG es_MX.UTF-8
+ENV LANGUAGE es_MX.UTF-8    
 
 # "#################################################"
 # "GitHub Pages/Jekyll is based on Ruby. Set the version and path"

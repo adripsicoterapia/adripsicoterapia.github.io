@@ -1,8 +1,8 @@
 # main links
 main:
-  - title: "Theme Documentation"
-    url: https://perstarke-webdev.de/oneflow-jekyll-theme
-    blank: true
+  - title: "Acerca de mi"
+    url: /pages/curriculum
+    blank: false
     description: "The documentation for this theme, on https://perstarke-webdev.de"
   - title: "Section 1"
     url: /#section-1
