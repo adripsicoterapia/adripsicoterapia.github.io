@@ -10,7 +10,7 @@ oneflow-skin    : "air" # "default", "air", "aqua", "contrast", "dark", "dirt", 
 
 # Site Settings
 locale                   : "es-MX"
-title                    : "OneFlow Jekyll Theme"
+title                    : "Psicoterapeuta"
 title_separator          : "-"
 subtitle                 : " " # Displayed in the masthead below the title, use " " for no subtitle
 url                      : "https://adripsicoterapia.github.io/" # the base hostname & protocol for your site
