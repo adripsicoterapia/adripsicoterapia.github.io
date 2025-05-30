@@ -4,7 +4,6 @@ search: false
 ---
 
 @charset "utf-8";
-@import "oneflow/skins/{{ site.oneflow-skin | default: 'default' }}"; // skin
-@import "oneflow"; // main partials
-@import "all.min.css"; // fontawesome
-@import "custom-styles.css" // custom css stylesheet
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
