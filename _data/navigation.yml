@@ -1,0 +1,12 @@
+# main links
+main:
+   - title: "Acerca de mi"
+     url: /about
+   - title: "Contactame"  
+     url: /contactame
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+   - title: "Articulos"
+     url: /categories/
+  # - title: "Sitemap"
+  #   url: /sitemap/
