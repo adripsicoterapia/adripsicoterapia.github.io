@@ -2,7 +2,7 @@
 title: "Psicoterapia Infantil desde el Enfoque Humanista"
 header:   
 categories:
- - psicologia infantil
+ - psicologia-infantil
 tags: 
  - psicologia
  - psicoterapia
